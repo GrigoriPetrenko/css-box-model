@@ -1,0 +1,133 @@
+* {
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.headerImage {
+  background: dimgray
+    url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.headerText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.button {
+  display: inline-block;
+  background: #333;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+}
+h1 {
+  font-size: 1.2em;
+}
+h1,
+h2,
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.firstSection {
+  background: #eaeaea;
+  color: #333;
+  padding: 1em 2em 1em 2em;
+}
+.firstSectionText {
+  padding: 2em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  columns: 2;
+  text-align: center;
+}
+.secondSection {
+  background-color: #333;
+  display: block;
+}
+.positionDiv {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+.secondContent {
+  background-color: aliceblue;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33%;
+  height: 100%;
+  padding: 0;
+  text-align: center;
+}
+img {
+  display: block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.thirtContent {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  padding-bottom: 2em;
+}
+.forthContent {
+  display: block;
+  background: #fff;
+}
+.contuctUs,
+.aboutUs {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  height: 250px;
+  color: #fff;
+}
+.contuctUs {
+  float: left;
+  background-color: #2690d4;
+}
+.aboutUs {
+  background-color: #333;
+}
+.contuctUs a {
+  color: inherit;
+  text-decoration: none;
+  margin: 2em;
+}
+.dubleFooter {
+  padding: 2em;
+  background-color: black;
+  color: #fff;
+}
+.dubleFooter a {
+  color: #2690d4;
+}
+
+.footerSectionOne,
+.footerSectionTwo {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+}
+.footerSectionOne {
+  float: left;
+}
