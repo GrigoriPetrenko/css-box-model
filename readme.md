@@ -2,5 +2,5 @@
 
 ## Questions:
 
--in header "p" not 70%!?
--"secondSection" - How input padding between "secondContent" elements?
+1. In header "p" not 70%!?
+2. In "secondSection" - How input padding between "secondContent" elements?
